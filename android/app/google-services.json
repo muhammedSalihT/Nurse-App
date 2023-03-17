@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763315227949",
+    "project_id": "unaproject-c1958",
+    "storage_bucket": "unaproject-c1958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763315227949:android:9fe1fd5c37f70b3fff17a4",
+        "android_client_info": {
+          "package_name": "com.una.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763315227949-t9dsj34qusdsmvcgqc7e30a9o0u8d11e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkJrOSpYzYUd1vnv4EgbWhKBDxysVOgkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763315227949-t9dsj34qusdsmvcgqc7e30a9o0u8d11e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
