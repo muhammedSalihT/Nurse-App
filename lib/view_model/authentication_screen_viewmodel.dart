@@ -235,7 +235,8 @@ class AuthenticationViewModel with ChangeNotifier {
               user = auth.currentUser;
               user!.sendEmailVerification();
               SnackBarWidget.getSnackBar(
-                  context: context, showText: "Verification Link Sended");
+                  context: context,
+                  showText: "Verification Link Sended To Email");
               isEmailVerify = true;
               start = 60;
               notifyListeners();
