@@ -121,7 +121,6 @@ class SecureStore with ChangeNotifier {
     login.delete(key: "Pass");
     login.delete(key: "Type");
     login.delete(key: "Token");
-    login.delete(key: "Date");
 
     Navigator.of(context).pushAndRemoveUntil(
       MaterialPageRoute(

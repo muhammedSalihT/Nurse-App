@@ -227,8 +227,9 @@ class AuthenticationViewModel with ChangeNotifier {
         try {
           await FirebaseAuth.instance
               .createUserWithEmailAndPassword(
-                  email: emailTextControlller.text.trim(),
-                  password: passwordTextController.text.trim())
+            email: emailTextControlller.text.trim(),
+            password: passwordTextController.text.trim(),
+          )
               .then(
             (value) async {
               user = auth.currentUser;
